@@ -25,9 +25,21 @@ Numerical analysis: solutions of ordinary differential equations with Matlab
 **mieuler.m** - Euler method
 
 
+####Multistep methods
+
+**miab4.m** - 4-step Adams-Bashforth method
+
+**mimilne.m** - 4-step Milne method
+
+
 #Tests
 
 All of them use the input values and function from mispracticas.m, use a method to solve the problem and misgraficas.m to paint the solution 
 
 
 **testmieuler.m** - Use mieuler.m
+
+**testmiab4.m** - Use miab4.m
+
+**testmimilne.m** - Use mimilne.m
+
