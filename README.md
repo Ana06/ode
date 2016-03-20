@@ -3,6 +3,7 @@
 Numerical analysis: solutions of ordinary differential equations with Matlab. Comments are in Spanish.
 
 
+
 ##Functions
 
 **funccorazon.m** - Cardioid
@@ -10,11 +11,13 @@ Numerical analysis: solutions of ordinary differential equations with Matlab. Co
 **funcvanderpol.m** - Van der Pol oscillator
 
 
+
 ##Auxiliar modules
 
 **mispracticas.m** - in every line has an equation and its input values
 
 **misgraficas.m** - to paint the solution
+
 
 
 ##Initial value problems
@@ -25,11 +28,15 @@ Numerical analysis: solutions of ordinary differential equations with Matlab. Co
 **mieuler.m** - Euler method
 
 
+
 ###Multistep methods
 
 **miab4.m** - 4-step Adams-Bashforth method
 
 **mimilne.m** - 4-step Milne method
+
+
+
 
 ###Predictor–corrector methods
 
@@ -40,7 +47,16 @@ Numerical analysis: solutions of ordinary differential equations with Matlab. Co
 **mimilsimp.m** - Predictor: 4-step Milne method, Corrector: 2-step Simpson method
 
 
-#Tests
+
+###Adaptive algorithms
+
+**mimetadap.m** - Using a one-step method
+
+**mirkf45.m** - Runge-Kutta-Fehlberg method
+
+
+
+##Tests
 
 All of them use the input values and function from mispracticas.m, use a method to solve the problem and misgraficas.m to paint the solution 
 
@@ -56,3 +72,7 @@ All of them use the input values and function from mispracticas.m, use a method 
 **testmiab4am3.m** - Use miab4am3.m
 
 **testmimilsimp.m** - Use mimilsimp.m
+
+**testmimetadap.m** - Use mimetadap.m
+
+**testmirkf45.m** - Use mirkf45.m
