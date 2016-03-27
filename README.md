@@ -1,6 +1,6 @@
 # ODE
 
-Numerical analysis: solutions of ordinary differential equations with Matlab.
+Numerical analysis: solutions of ordinary differential equations with Matlab. Most comments are in Spanish.
 
 
 
@@ -59,18 +59,26 @@ Numerical analysis: solutions of ordinary differential equations with Matlab.
 ##Boundary value problems
 
 
-###Linear boundary value problems
+###Linear boundary value problem
 
-**midisplin.m** - Linear boundary value problems for several types of boundary conditions
+**midisplin.m** - linear boundary value problems for several types of boundary conditions
 
 **fundisplin1.m** - ordinary differential equation used in midisplin.m
 
 **fundisplin2.m** - ordinary differential equation used in midisplin.m
 
+
+###Nonlinear boundary value problem
+
+**midispnolin.m** - nonlinear boundary value problems for several types of boundary conditions
+
+**funcdispnolin.m** - used in midispnolin.m
+
+
+
 ##Tests
 
 All of them use the input values and function from mispracticas.m, use a method to solve the problem and misgraficas.m to paint the solution 
-
 
 **testmieuler.m** - Use mieuler.m
 
@@ -88,4 +96,7 @@ All of them use the input values and function from mispracticas.m, use a method 
 
 **testmirkf45.m** - Use mirkf45.m
 
-**testmidisplin.m* - Use midisplin.m
+**testmidisplin.m** - Use midisplin.m
+
+**testmidispnolin.m** - Use midispnolin.m
+
