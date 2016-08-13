@@ -78,7 +78,9 @@ Numerical analysis: solutions of ordinary differential equations with Matlab. Mo
 
 ##Tests
 
-All of them use the input values and function from mispracticas.m, use a method to solve the problem and misgraficas.m to paint the solution 
+All of them use the input values and function from mispracticas.m, use a method to solve the problem and misgraficas.m to paint the solution
+
+**testmiode45.m** - Use Matlab function `ode45`
 
 **testmieuler.m** - Use mieuler.m
 
