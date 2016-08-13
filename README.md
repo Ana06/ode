@@ -10,6 +10,9 @@ Numerical analysis: solutions of ordinary differential equations with Matlab. Mo
 
 **funcvanderpol.m** - Van der Pol oscillator
 
+**funcpendulo.m** - Pendulum
+
+**funcpendulolin.m** - Lineal pendulum
 
 
 ##Auxiliar modules
@@ -26,6 +29,14 @@ Numerical analysis: solutions of ordinary differential equations with Matlab. Mo
 ###One-step methods 
 
 **mieuler.m** - Euler method
+
+**mirk4.m** - fourth-order Runge-Kutta
+
+**mitrap.m** - Trapezoidal method
+
+**jacrigida** - Jacobian matrix of the equation x'(t) = -50(x(t)-cos(t)) to be used in mitrap.m
+
+**jacvanderpol** - Jacobian matrix of the Van der Pol oscillator equation to be used in mitrap.m
 
 
 
@@ -85,6 +96,10 @@ All of them use the input values and function from mispracticas.m, use a method 
 **testmiode45.m** - Use Matlab function `ode45`
 
 **testmieuler.m** - Use mieuler.m
+
+**testmirk4.m** - Use mirk4.m
+
+**testmitrap.m** - Use mitrap.m
 
 **testmiab4.m** - Use miab4.m
 

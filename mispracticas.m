@@ -10,6 +10,17 @@
 % Van der Pol oscillator 
 % fun = @funcvanderpol; x0=[0.1;0.2]; tinic=0; tfin=10; N=1000; par=[]; jac=@jacvanderpol; itmax=10;
 
+% Rigid equation, better for trapezoidal than rk4
+% fun = @funcrigida; x0=0; tinic=0; tfin=pi/2; N=100; par=[]; jac=@jacrigida; itmax=10;
+
+% Pendulum par=[beta,g,l,M]
+% Example1 beta=0,0.25,1.5 g=9.8 l=1 M=0   Si beta =0 el pendulo oscila y nunca se para
+% Example2 beta=0.5 g=9.8 l=1 M=9.7,9.8,9.9   Si M(fuerza) > g(gravedad) la velocidad siempre es positiva
+% fun=@funcpendulo; x0 = [pi/2;0.1]; tinic=0; tfin=100; N=1000; par=[0,9.8,1,0]; 
+
+% Lineal pendulum
+% fun=@funcpendulolin; x0 = [pi/2;0.1]; tinic=0; tfin=100; N=10000; par=[1.5,9.8,1,0]; %par=[beta,g,l,M]
+
 
 % LINEAR BOUNDARY VALUE PROBLEMS
 
