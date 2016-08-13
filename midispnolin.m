@@ -14,8 +14,6 @@ function [t,u] = midispnolin(t0, T, N, a, b, ffxfy, C1, C2, TOL, m)
 %C1=1 C2=0 => x(t0) = a; x0(T) = b
 %C1=1 C2=1 => x0(t0) = a; x0(T) = b
 %
-%De momento C1 = 0 C2 =0
-%
 %VARIABLES DE SALIDA
 %u tabla de valores de x(t)
 %t tabla de puntos t(n)

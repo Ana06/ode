@@ -70,9 +70,11 @@ Numerical analysis: solutions of ordinary differential equations with Matlab. Mo
 
 ###Nonlinear boundary value problem
 
-**midispnolin.m** - nonlinear boundary value problems for several types of boundary conditions
+**midispnolin.m** - nonlinear boundary value problems for several types of boundary conditions: Dirichlet and Neumann
 
-**funcdispnolin.m** - used in midispnolin.m
+**midispnolingen.m** - generalization of midispnolin.m which can be use for more types of boundary conditions: Robin
+
+**funcdispnolin.m** - used in midispnolin.m and **midispnolingen.m**
 
 
 

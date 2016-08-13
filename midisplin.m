@@ -15,8 +15,6 @@ function [t,u] = midisplin(t0,tfin,N,a,b,pqr,C1,C2)
 %C1=1 C2=0 => x'(t0) = a; x(T) = b
 %C1=1 C2=1 => x'(t0) = a; x'(T) = b
 %
-%De momento C1 = 0 C2 =0
-%
 %VARIABLES DE SALIDA
 %u tabla de valores de x(t)
 %t tabla de puntos t(n)
