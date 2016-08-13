@@ -1,6 +1,6 @@
 # ODE
 
-Numerical analysis: solutions of ordinary differential equations with Matlab. Most comments are in Spanish.
+Numerical analysis: solutions of ordinary differential equations with Matlab. This project was developed during a university course (Numerical methods) in 2015-2016. Comments are in Spanish, except in [**mispracticas.m**](https://github.com/Ana06/ode/blob/master/mispracticas.m), where the comments are in English.
 
 
 
@@ -15,6 +15,7 @@ Numerical analysis: solutions of ordinary differential equations with Matlab. Mo
 **funcpendulolin.m** - Lineal pendulum
 
 
+
 ##Auxiliar modules
 
 **mispracticas.m** - in every line has an equation and its input values
@@ -24,7 +25,6 @@ Numerical analysis: solutions of ordinary differential equations with Matlab. Mo
 
 
 ##Initial value problems
-
 
 ###One-step methods 
 
@@ -39,14 +39,11 @@ Numerical analysis: solutions of ordinary differential equations with Matlab. Mo
 **jacvanderpol** - Jacobian matrix of the Van der Pol oscillator equation to be used in mitrap.m
 
 
-
 ###Multistep methods
 
 **miab4.m** - 4-step Adams-Bashforth method
 
 **mimilne.m** - 4-step Milne method
-
-
 
 
 ###Predictor–corrector methods
@@ -58,7 +55,6 @@ Numerical analysis: solutions of ordinary differential equations with Matlab. Mo
 **mimilsimp.m** - Predictor: 4-step Milne method, Corrector: 2-step Simpson method
 
 
-
 ###Adaptive algorithms
 
 **mimetadap.m** - Using a one-step method
@@ -68,7 +64,6 @@ Numerical analysis: solutions of ordinary differential equations with Matlab. Mo
 
 
 ##Boundary value problems
-
 
 ###Linear boundary value problem
 
@@ -119,3 +114,14 @@ All of them use the input values and function from mispracticas.m, use a method 
 
 **testmidispnolin.m** - Use midispnolin.m
 
+
+
+## Authors
+
+This project was developed by Ana María Martínez Gómez.
+
+
+
+## Licence
+
+Code published under MIT License (see [LICENSE](LICENSE)).
